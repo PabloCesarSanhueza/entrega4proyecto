@@ -141,6 +141,29 @@ justify-content: center;
 .estiloRep {
     margin-left: 18%;
 }
+
+.estiloParrafo_bio{
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 10px;
+text-align: justify;
+font-family: Georgia, Times, 'Times New Roman', serif
+}
+
+.estiloimagen1_bio {
+    margin: 15px;
+    height: 350px;
+    width: 500px;
+    margin-left: 30px;
+}
+.estiloimagen2_bio {
+    margin: 15px;
+    height: 350px;
+    width: 500px;
+    margin-left: 30px;
+}
+
 //*DESAFIO SASS**//
 //*CALCULADAS*//
 
@@ -265,6 +288,14 @@ height: 45px;
         padding: 10px;
         margin-bottom: 20px;
         margin-right: 0;
+    }
+    .estiloimagen1_bio {
+        height: 250px;
+        width: 400px;
+    }
+    .estiloimagen2_bio {
+        height: 250px;
+        width: 400px;
     }
 }
 
